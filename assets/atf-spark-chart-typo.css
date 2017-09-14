@@ -1,0 +1,71 @@
+@font-face {
+    font-family: SparkBarMedium;
+    src: url(fonts/SparkBarMedium.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: SparkBarNarrow;
+    src: url(fonts/SparkBarNarrow.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: SparkBarThin;
+    src: url(fonts/SparkBarThin.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: SparkDot-lineMedium;
+    src: url(fonts/SparkDot-lineMedium.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: SparkDotMedium;
+    src: url(fonts/SparkDotMedium.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: SparkDotSmall;
+    src: url(fonts/SparkDotSmall.otf);
+    font-weight: normal;
+}
+
+[class^="atfspark-"] {
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    font-variant-ligatures: contextual;
+    -moz-font-feature-settings: "calt";
+    -webkit-font-feature-settings: "calt";
+    font-feature-settings: "calt";
+    letter-spacing: 0;
+}
+
+.atfspark-bar-medium {
+    font-family: SparkBarMedium;
+}
+
+.atfspark-bar-narrow {
+    font-family: SparkBarNarrow;
+}
+
+.atfspark-bar-thin {
+    font-family: SparkBarThin;
+}
+
+.atfspark-line-medium {
+    font-family: SparkDot-lineMedium;
+}
+
+.atfspark-dot-medium {
+    font-family: SparkDotMedium;
+}
+
+.atfspark-dot-small {
+    font-family: SparkDotSmall;
+}
+

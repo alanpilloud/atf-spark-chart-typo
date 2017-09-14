@@ -1,0 +1,11 @@
+[class^="atfspark-"] {
+    display: inline-block;
+    background: #e1e1e1;
+    border: 1px solid #ddd;
+    padding: 0 6px;
+}
+
+[class^="atfspark-"]:before {
+    content: 'Chart';
+    font-size: 60%;
+}
